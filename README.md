@@ -65,15 +65,6 @@ We applied an **Autoregressive (AR(4)) model** to predict Weekly_Sales, incorpor
 - Focus on coefficients for seasonal interpretation.
 - In-sample predictions with 95% confidence intervals for validation.
 
-### Evaluation Metrics:
-The model shows good alignment with trends but underestimates extreme holiday spikes (e.g., R-squared not computed directly; visual fit assessed via predictions).
-
-![AR(4) Model Results](https://github.com/yourusername/Walmart_Holiday_Sales/blob/main/figures/figure3.png)  
-*Figure 3: AR(4) model coefficients, highlighting significant holiday impacts.*
-
-![Predicted Weekly Sales](https://github.com/yourusername/Walmart_Holiday_Sales/blob/main/figures/figure4.png)  
-*Figure 4: In-sample predictions for Store 34, with actual sales (blue) and 95% CI (shaded).*
-
 ---
 
 ### ✅ Model Insights & Key Coefficients
