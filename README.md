@@ -44,9 +44,6 @@ The EDA process includes:
 - Time series plots for representative stores (e.g., Store 34 as the median performer).
 - Identification of sales volatility tied to holidays (e.g., peaks in November–December).
 
-![Weekly Sales for Store 34](https://github.com/yourusername/Walmart_Holiday_Sales/blob/main/figures/figure2.png)  
-*Figure 2: Weekly sales for Store 34, showing high volatility with peaks likely tied to holiday periods.*
-
 ---
 
 ## 🧹 Data Cleaning & Feature Engineering
