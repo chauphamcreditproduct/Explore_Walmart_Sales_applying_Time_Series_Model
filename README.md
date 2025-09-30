@@ -71,8 +71,8 @@ We applied an **Autoregressive (AR(4)) model** to predict Weekly_Sales, incorpor
 
 | Month       | Coefficient | Std Err | z      | P>|z|  | Interpretation                  |
 |-------------|-------------|---------|--------|--------|--------------------------------|
-| Feb         | 300,600     | 5,086   | 5.915  | 0.000  | Sharp increase (Super Bowl + Valentine's). |
-| Mar         | 180,300     | 4,082   | 4.417  | 0.000  | Modest uplift (Easter/St. Patrick's). |
+| Feb         | 300,600     | 5,086   | 5.915  | 0.000  | Sharp increase (Super Bowl + Valentine's).|
+| Mar         | 180,300     | 4,082   | 4.417  | 0.000  | Modest uplift (Easter/St. Patrick's).|
 | Apr         | 220,300     | 4,330   | 5.083  | 0.000  | Easter-driven gains.            |
 | May         | 212,200     | 4,354   | 4.874  | 0.000  | Mother's/Memorial Day.          |
 | Jun         | 212,800     | 4,264   | 4.991  | 0.000  | Father's Day/summer start.      |
