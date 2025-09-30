@@ -69,20 +69,20 @@ We applied an **Autoregressive (AR(4)) model** to predict Weekly_Sales, incorpor
 
 ### ✅ Model Insights & Key Coefficients
 
-| Month      | Coefficient | Std Err | z      | P>|z|  | Interpretation                  |
-|------------|-------------|---------|--------|--------|--------------------------------|
-| Feb        | 300,600     | 5,086   | 5.915  | 0.000  | Sharp increase (Super Bowl + Valentine's). |
-| Mar        | 180,300     | 4,082   | 4.417  | 0.000  | Modest uplift (Easter/St. Patrick's). |
-| Apr        | 220,300     | 4,330   | 5.083  | 0.000  | Easter-driven gains.            |
-| May        | 212,200     | 4,354   | 4.874  | 0.000  | Mother's/Memorial Day.          |
-| Jun        | 212,800     | 4,264   | 4.991  | 0.000  | Father's Day/summer start.      |
-| Jul        | 174,100     | 4,334   | 4.018  | 0.000  | Independence Day (smaller bump).|
-| Aug        | 221,100     | 4,556   | 4.852  | 0.000  | Back-to-school.                 |
-| Sep        | 178,000     | 4,414   | 4.033  | 0.000  | Labor Day.                      |
-| Oct        | 205,400     | 4,666   | 4.402  | 0.000  | Halloween.                      |
-| Nov        | 331,000     | 4,764   | 6.948  | 0.000  | Thanksgiving/Black Friday.      |
-| Dec        | 439,400     | 5,586   | 7.866  | 0.000  | Christmas peak.                 |
-| IsMarkdown | 25,710      | 1,397   | 1.841  | 0.065  | Marginal promotional boost.     |
+| Month       | Coefficient | Std Err | z      | P>|z|  | Interpretation                  |
+|-------------|-------------|---------|--------|--------|--------------------------------|
+| Feb         | 300,600     | 5,086   | 5.915  | 0.000  | Sharp increase (Super Bowl + Valentine's). |
+| Mar         | 180,300     | 4,082   | 4.417  | 0.000  | Modest uplift (Easter/St. Patrick's). |
+| Apr         | 220,300     | 4,330   | 5.083  | 0.000  | Easter-driven gains.            |
+| May         | 212,200     | 4,354   | 4.874  | 0.000  | Mother's/Memorial Day.          |
+| Jun         | 212,800     | 4,264   | 4.991  | 0.000  | Father's Day/summer start.      |
+| Jul         | 174,100     | 4,334   | 4.018  | 0.000  | Independence Day (smaller bump).|
+| Aug         | 221,100     | 4,556   | 4.852  | 0.000  | Back-to-school.                 |
+| Sep         | 178,000     | 4,414   | 4.033  | 0.000  | Labor Day.                      |
+| Oct         | 205,400     | 4,666   | 4.402  | 0.000  | Halloween.                      |
+| Nov         | 331,000     | 4,764   | 6.948  | 0.000  | Thanksgiving/Black Friday.      |
+| Dec         | 439,400     | 5,586   | 7.866  | 0.000  | Christmas peak.                 |
+| IsMarkdown  | 25,710      | 1,397   | 1.841  | 0.065  | Marginal promotional boost.     |
 
 **Key Insights**:
 - **November–December peaks**: Largest coefficients (331K–439K), driven by major holidays.
@@ -110,7 +110,3 @@ Top contributors (based on AR coefficients):
 ## 💡 Business Insight
 
 > Holidays like Black Friday and Christmas are critical revenue drivers, contributing up to 40%+ lifts over baseline months. Retailers can optimize by scaling inventory/staffing in Q4 and using targeted promotions in secondary peaks (e.g., back-to-school). Markdowns enhance but don't replace holiday demand—focus on high-precision planning to maximize profitability while minimizing overstock risks.
-
----
-
-*Note: Replace `yourusername` with your actual GitHub username and ensure the figure links are updated with the correct paths once uploaded.*
